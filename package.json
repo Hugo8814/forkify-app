@@ -1,0 +1,17 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel starter/index.html",
+    "build": "parcel build index"
+  },
+  "author": "hugo",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0"
+  }
+}
