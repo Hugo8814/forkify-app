@@ -8,7 +8,7 @@ const timeout = function (s) {
   });
 };
 
-// https://forkify-api.herokuapp.com/v2
+//// https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
 const showRecipe = async function () {
