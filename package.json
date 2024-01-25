@@ -9,7 +9,9 @@
   "author": "hugo",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.11.0"
+    "core-js": "^3.35.1",
+    "parcel": "^2.11.0",
+    "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0"
