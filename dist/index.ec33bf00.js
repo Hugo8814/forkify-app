@@ -2665,7 +2665,7 @@ class RecipeView {
 }
 exports.default = new RecipeView();
 
-},{"url:../../img/icons.svg":"e1R5V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","fractional":"3SU56"}],"3SU56":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","fractional":"3SU56","url:../../img/icons.svg":"e1R5V"}],"3SU56":[function(require,module,exports) {
 /*
 fraction.js
 A Javascript fraction library.
