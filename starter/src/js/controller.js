@@ -1,6 +1,6 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
-
+import icons from 'url:../img/icons.svg';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { loadRecipe } from './model';
@@ -36,8 +36,11 @@ const controlRecipes = async function () {
     alert(err);
   }
 };
-control();
+controlRecipes();
 
-['hashchange', 'load'].forEach(ev => window.addEventListener(ev, control));
+['hashchange', 'load'].forEach(ev =>
+  window.addEventListener(ev, controlRecipes)
+);
 // window.addEventListener('hashchange', control);
 // window.addEventListener('load', control);
+//
