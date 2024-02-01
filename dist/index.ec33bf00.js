@@ -602,7 +602,7 @@ const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
         if (!id) return;
-        renderSpinner(recipeContainer);
+        (0, _recipeViewJsDefault.default).renderSpinner();
         //1 loading recpice
         await _modelJs.loadRecipe(id);
         const { recipe } = _modelJs.state;
@@ -2499,6 +2499,8 @@ const loadRecipe = async function(id) {
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3QIHi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class RecipeView {
     #parentElement = document.querySelector(".recipe");
     #data;
@@ -2515,7 +2517,7 @@ class RecipeView {
         const markup = `
     <div class="spinner">
       <svg>
-        <use href="${icons}#icon-loader"></use>
+        <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
       </svg>
     </div>`;
         this.#parentElement.tinnerHTML = "";
@@ -2533,14 +2535,14 @@ class RecipeView {
           <div class="recipe__details">
             <div class="recipe__info">
               <svg class="recipe__info-icon">
-                <use href="${icons}#icon-clock"></use>
+                <use href="${0, _iconsSvgDefault.default}#icon-clock"></use>
               </svg>
               <span class="recipe__info-data recipe__info-data--minutes">${this.#data.cooking_time}</span>
               <span class="recipe__info-text">minutes</span>
           </div>
           <div class="recipe__info">
             <svg class="recipe__info-icon">
-              <use href="${icons}#icon-users"></use>
+              <use href="${0, _iconsSvgDefault.default}#icon-users"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--people">${this.#data.servings}</span>
             <span class="recipe__info-text">servings</span>
@@ -2548,12 +2550,12 @@ class RecipeView {
             <div class="recipe__info-buttons">
               <button class="btn--tiny btn--increase-servings">
                 <svg>
-                  <use href="${icons}#icon-minus-circle"></use>
+                  <use href="${0, _iconsSvgDefault.default}#icon-minus-circle"></use>
                 </svg>
               </button>
               <button class="btn--tiny btn--increase-servings">
                 <svg>
-                  <use href="${icons}#icon-plus-circle"></use>
+                  <use href="${0, _iconsSvgDefault.default}#icon-plus-circle"></use>
                 </svg>
               </button>
             </div>
@@ -2561,12 +2563,12 @@ class RecipeView {
 
           <div class="recipe__user-generated">
               <svg>
-                <use href="${icons}#icon-user"></use>
+                <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
               </svg>
           </div>
             <button class="btn--round">
             <svg class="">
-              <use href="${icons}#icon-bookmark-fill"></use>
+              <use href="${0, _iconsSvgDefault.default}#icon-bookmark-fill"></use>
             </svg>
           </button>
         </div>
@@ -2578,7 +2580,7 @@ class RecipeView {
             return `
               <li class="recipe__ingredient">
                     <svg class="recipe__icon">
-                        <use href="${icons}#icon-check"></use>s
+                        <use href="${0, _iconsSvgDefault.default}#icon-check"></use>s
                     </svg>
                         <div class="recipe__quantity">${ing.quantity}</div>
                     <div class="recipe__description">
@@ -2603,7 +2605,7 @@ class RecipeView {
             target="_blank">
             <span>Directions</span>
             <svg class="search__icon">
-              <use href="${icons}#icon-arrow-right"></use>
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </a>
         </div>`;
@@ -2611,6 +2613,44 @@ class RecipeView {
 }
 exports.default = new RecipeView();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["iVQoW","fstXO"], "fstXO", "parcelRequire3a11")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"e1R5V"}],"e1R5V":[function(require,module,exports) {
+module.exports = require("4824003d55a6bbc4").getBundleURL("iTq60") + "icons.35d27858.svg" + "?" + Date.now();
+
+},{"4824003d55a6bbc4":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}]},["iVQoW","fstXO"], "fstXO", "parcelRequire3a11")
 
 //# sourceMappingURL=index.ec33bf00.js.map
