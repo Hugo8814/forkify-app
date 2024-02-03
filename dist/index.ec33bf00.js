@@ -2560,12 +2560,9 @@ class RecipeView {
     };
     addhandlerRender(handler) {
         [
-            "hashChange",
+            "hashchange",
             "load"
         ].forEach((ev)=>window.addEventListener(ev, handler));
-        console.log(window.addEventListener("load", function() {
-            console.log(true);
-        }));
     }
     _generateMarkup() {
         return `
