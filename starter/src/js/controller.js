@@ -4,7 +4,6 @@ import recipeView from './views/recipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { loadRecipe } from './model';
-console.log(recipeView);
 
 const recipeContainer = document.querySelector('.recipe');
 
@@ -28,7 +27,6 @@ const controlRecipes = async function () {
     console.log(err);
   }
 };
-controlRecipes();
 
 const init = function () {
   recipeView.addhandlerRender(controlRecipes);

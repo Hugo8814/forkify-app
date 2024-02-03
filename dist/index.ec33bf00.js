@@ -586,7 +586,6 @@ var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
 var _runtime = require("regenerator-runtime/runtime");
 var _model = require("./model");
-console.log((0, _recipeViewJsDefault.default));
 const recipeContainer = document.querySelector(".recipe");
 ////// https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
@@ -604,7 +603,6 @@ const controlRecipes = async function() {
         console.log(err);
     }
 };
-controlRecipes();
 const init = function() {
     (0, _recipeViewJsDefault.default).addhandlerRender(controlRecipes);
 };
@@ -2565,6 +2563,9 @@ class RecipeView {
             "hashChange",
             "load"
         ].forEach((ev)=>window.addEventListener(ev, handler));
+        console.log(window.addEventListener("load", function() {
+            console.log(true);
+        }));
     }
     _generateMarkup() {
         return `
