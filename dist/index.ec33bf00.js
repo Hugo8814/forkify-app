@@ -601,6 +601,7 @@ const controlRecipes = async function() {
     //2 rendering recipe
     } catch (err) {
         console.log(err);
+        (0, _recipeViewJsDefault.default).renderError();
     }
 };
 const init = function() {
@@ -2483,6 +2484,7 @@ const loadRecipe = async function(id) {
         console.log(state.recipe);
     } catch (err) {
         console.error(`${err}\u{1F621}`);
+        throw err;
     }
 };
 
@@ -2522,7 +2524,7 @@ const getJSON = async function(url) {
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","regenerator-runtime":"dXNgZ","./config":"70DKu"}],"3QIHi":[function(require,module,exports) {
+},{"regenerator-runtime":"dXNgZ","./config":"70DKu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3QIHi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
@@ -2542,22 +2544,46 @@ class RecipeView {
             return;
         }
         const markup = this._generateMarkup();
-        this.#clear();
+        this._clear();
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
     }
-    #clear() {
+    _clear() {
         this._parentElement.insertHTML = "";
     }
-    renderSpinner = function() {
+    renderSpinner() {
         const markup = `
     <div class="spinner">
       <svg>
         <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
       </svg>
     </div>`;
-        this._parentElement.tinnerHTML = "";
+        this._clear();
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
-    };
+    }
+    renderError(message = this._errorMessage) {
+        const markup = `<div class="error">
+       <div>
+           <svg>
+              <use href= ${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+            </svg>
+        </div>
+        <p>${message}</p>
+      </div> `;
+        this._clear();
+        this._parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    renderError(message = this._errorMessage) {
+        const markup = `<div class="error">
+       <div>
+           <svg>
+              <use href= ${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+            </svg>
+        </div>
+        <p>${message}</p>
+      </div> `;
+        this._clear();
+        this._parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
     addhandlerRender(handler) {
         [
             "hashchange",
