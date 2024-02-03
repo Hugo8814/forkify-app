@@ -610,6 +610,10 @@ const controlRecipes = async function() {
     }
 };
 controlRecipes();
+[
+    "HashChange",
+    "load"
+].forEach((ev)=>window.addEventListener(ev, controlRecipes));
 
 },{"core-js/modules/web.immediate.js":"49tUX","url:../img/icons.svg":"e1R5V","regenerator-runtime/runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./model.js":"aa1aw","./views/recipeView.js":"3QIHi","./model":"aa1aw"}],"49tUX":[function(require,module,exports) {
 "use strict";

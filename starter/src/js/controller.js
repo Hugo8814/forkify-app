@@ -30,6 +30,10 @@ const controlRecipes = async function () {
 };
 controlRecipes();
 
+['HashChange', 'load'].forEach(ev =>
+  window.addEventListener(ev, controlRecipes)
+);
+
 // window.addEventListener('hashchange', control);
 // window.addEventListener('load', control);
 //
