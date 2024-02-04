@@ -1,6 +1,6 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
-import recipeView from './views/recipeView.js';
+import resultsView from './views/resultsView.js';
 import SearchView from './views/searchView.js';
 
 //import icons from 'url:../img/icons.svg';
@@ -12,6 +12,7 @@ import searchView from './views/searchView.js';
 
 const controlRecipes = async function () {
   try {
+    resultsView.renderSpinner();
     const id = window.location.hash.slice(1);
 
     if (!id) return;
@@ -40,6 +41,7 @@ const controlSearchResults = async function () {
     //3 render results
 
     console.log(model.state.search.results);
+    resultsView.render(model.state.search.results);
   } catch (err) {
     console.log(err);
   }
