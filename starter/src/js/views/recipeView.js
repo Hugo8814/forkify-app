@@ -1,46 +1,33 @@
-import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
-import View from './view';
+import View from './View.js';
 
+// import icons from '../img/icons.svg'; // Parcel 1
+import icons from 'url:../../img/icons.svg'; // Parcel 2
+import { Fraction } from 'fractional';
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'We could not find that recipe. Please try another one!';
   _message = '';
 
-  _data;
-
-  render(data) {
-    this._data = data;
-
-    if (!this._data) {
-      // Handle the case when data is undefined
-      console.error('Recipe data is undefined');
-      // You might want to display an error message or handle it in another way
-      return;
-    }
-    const markup = this._generateMarkup();
-    this._clear();
-    this._parentElement.insertAdjacentHTML('afterbegin', markup);
-  }
-
-  _clear() {
-    this._parentElement.insertHTML = '';
-  }
-
-  renderSpinner = function () {
-    const markup = `
-    <div class="spinner">
-      <svg>
-        <use href="${icons}#icon-loader"></use>
-      </svg>
-    </div>`;
-    this._parentElement.tinnerHTML = '';
-    this._parentElement.insertAdjacentHTML('afterbegin', markup);
-  };
-
-  addhandlerRender(handler) {
+  addHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
+  // addHandlerUpdateServings(handler) {
+  //   this._parentElement.addEventListener('click', function (e) {
+  //     const btn = e.target.closest('.btn--update-servings');
+  //     if (!btn) return;
+  //     const { updateTo } = btn.dataset;
+  //     if (+updateTo > 0) handler(+updateTo);
+  //   });
+  // }
+
+  // addHandlerAddBookmark(handler) {
+  //   this._parentElement.addEventListener('click', function (e) {
+  //     const btn = e.target.closest('.btn--bookmark');
+  //     if (!btn) return;
+  //     handler();
+  //   });
+  // }
+
   _generateMarkup() {
     return `
       <figure class="recipe__fig">
