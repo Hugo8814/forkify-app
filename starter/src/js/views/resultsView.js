@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+class ResultsView {
+
+}
+=======
 import View from './View';
 import icons from 'url:../../img/icons.svg';
 
@@ -29,3 +34,4 @@ class ResultsView extends View {
 }
 
 export default new ResultsView();
+>>>>>>> 75cdd0496275cfbafc221a4c4e5437f1a95d05ee

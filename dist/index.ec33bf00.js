@@ -602,8 +602,13 @@ const controlRecipes = async function() {
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     //2 rendering recipe
     } catch (err) {
+<<<<<<< HEAD
+        console.log(err);
+        (0, _recipeViewJsDefault.default).renderError(0);
+=======
         console.error(err);
         (0, _recipeViewJsDefault.default).renderError();
+>>>>>>> 75cdd0496275cfbafc221a4c4e5437f1a95d05ee
     }
 };
 const controlSearchResults = async function() {

@@ -25,8 +25,13 @@ const controlRecipes = async function () {
 
     //2 rendering recipe
   } catch (err) {
+<<<<<<< HEAD
+    console.log(err);
+    recipeView.renderError(0);
+=======
     console.error(err);
     recipeView.renderError();
+>>>>>>> 75cdd0496275cfbafc221a4c4e5437f1a95d05ee
   }
 };
 const controlSearchResults = async function () {
