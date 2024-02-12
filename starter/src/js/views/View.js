@@ -1,8 +1,3 @@
-<<<<<<< HEAD
- export default class View {
-
-}
-=======
 import icons from 'url:../../img/icons.svg';
 
 export default class View {
@@ -12,7 +7,7 @@ export default class View {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
     this._data = data;
-    console.log('huids');
+
     const markup = this._generateMarkup();
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
@@ -64,4 +59,3 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 }
->>>>>>> 75cdd0496275cfbafc221a4c4e5437f1a95d05ee
