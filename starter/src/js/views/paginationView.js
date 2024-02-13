@@ -30,7 +30,7 @@ class PaginationView extends View {
       `;
     }
 
-    // last page
+    // last page just commit
     if (curPage === numPages && numPages > 1) {
       return `
           <button class="btn--inline pagination__btn--prev">
