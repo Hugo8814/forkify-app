@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel starter/index.html",
+    "start2": "parcel final/index.html",
     "build": "parcel build index"
   },
   "author": "hugo",
