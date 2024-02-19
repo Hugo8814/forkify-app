@@ -1,4 +1,4 @@
-9738
+9751
 101C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\picocolors\README.md133518072713790375 0
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\immutable\package.json133518072782099666 0
 129C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\_\_array_without_holes\package.json133518072989961505 0
@@ -9,7 +9,7 @@
 92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\img\logo.png132886955210000000 0
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\features\xhtml.js133518073136225896 0
 102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\dotenv-expand\LICENSE133518072705183758 0
-80C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\package.json133511920235405125 0
+80C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\package.json133524123631158294 0
 130C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133518072944048548 0
 117C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\lib\replace\atrule\keyframes.js133518072921843710 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\SZ.js133518073123589100 0
@@ -22,13 +22,13 @@
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\actual\string\trim-right.js133518073152494573 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\workers\lib\Handle.js133518072813433833 0
 114C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\number\to-fixed.js133518073149493886 0
-72C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist133518137634977695 1
+72C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist133528240693010296 1
 117C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\instance\trim-left.js133518073152454562 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\string\search.js133518073141438437 0
 111C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\detect-libc\bin\detect-libc.js133518072720591318 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\react-error-overlay\README.md133518072759525105 0
 127C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133518072939850623 0
-73C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final132886955210000000 1
+73C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final133524123964954470 1
 114C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-select\lib\esm\compile.js.map133518072856558681 0
 117C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\features\array\find-index.js133518073104933756 0
 159C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\css-style-declaration.js133518072836170648 0
@@ -42,7 +42,7 @@
 124C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\_\_is_native_reflect_construct133518073003261918 1
 123C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\modules\esnext.json.is-raw-json.js133518073089057723 0
 121C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\modules\es.regexp.constructor.js133518073052563579 0
-86C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\index.html133515642690275579 0
+86C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\index.html133525896965501415 0
 107C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\msgpackr\dist\node.cjs.map133518072867613568 0
 119C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\internals\engine-v8-version.js133518073015978384 0
 125C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\modules\es.promise.with-resolvers.js133518073046035369 0
@@ -127,7 +127,7 @@
 144C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\types.json133518072834549973 0
 83C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\img132886955210000000 1
 151C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-html.js133518072722736859 0
-103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\resultsView.js133518075477332270 0
+103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\resultsView.js133528205258432671 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\CZ.js133518073016593598 0
 102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\dist\csso.esm.js133518072903375078 0
 127C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\features\webkit-user-drag.js133518073133525743 0
@@ -159,7 +159,7 @@
 120C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\packager-css\lib\CSSPackager.js133518072690893553 0
 128C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133518072975691514 0
 111C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\detect-libc\lib\detect-libc.js133518072730150289 0
-93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\helpers.js133518080082353566 0
+93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\helpers.js133525873009113808 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\BA.js133518072877714147 0
 114C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\packager-raw\package.json133518072710323906 0
 109C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\internals\ieee754.js133518073114195286 0
@@ -181,7 +181,7 @@
 128C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h133518072973007665 0
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\features\array\to-sorted.js133518073150424097 0
 105C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\js-yaml\lib\type\bool.js133518072700451566 0
-92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\config.js133518082417318277 0
+92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\config.js133525883243432794 0
 101C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\tslib\tslib.es6.html133518072665996779 0
 148C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-json5133518072793773649 0
 111C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\set-interval.js133518073142098597 0
@@ -203,7 +203,7 @@
 148C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\CDO.js133518072786020086 0
 92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\glob-parent133518072712310237 1
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\htmlnano\lib\presets\ampSafe.cjs133518072691070420 0
-96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\View.js133518119910297327 0
+96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\View.js133528199763381344 0
 129C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-select\node_modules\entities\lib\escape.d.ts133518072901772894 0
 99C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\msgpackr\struct.js133518072824530616 0
 109C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\string\big.js133518072988881250 0
@@ -255,7 +255,7 @@
 136C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Function.cjs133518072860156113 0
 140C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.vcxproj133518072999699571 0
 123C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133518073002925435 0
-96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\controller.js133518137644773775 0
+96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\controller.js133528240661853961 0
 119C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\features\fontface.js133518073045723567 0
 108C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\instance\sort.js133518073146903799 0
 87C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\base-x133518072705963989 1
@@ -271,7 +271,7 @@
 138C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\cjs\_class_static_private_field_spec_set.cjs133518072847442658 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-what\lib\commonjs\index.d.ts133518072817561226 0
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\lib\syntax\function\var.js133518073012429362 0
-91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\model.js133518082966856215 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\model.js133528239290352991 0
 145C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts133518072853220055 0
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\semver\functions\lt.js133518072819291636 0
 123C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\features\css3-tabsize.js133518073016138413 0
@@ -287,14 +287,14 @@
 128C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\features\symbol\is-concat-spreadable.js133518073123959173 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\svgo\plugins\removeDoctype.js133518072907805059 0
 93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\svgo\LICENSE133518072667319516 0
-106C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\paginationView.js133518136538192759 0
+106C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\paginationView.js133523968442462668 0
 105C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\packager-css\lib133518072686679550 1
 114C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\lib\syntax\node\Value.js133518073012389358 0
 107C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\mdn-data\css\at-rules.json133518072731976383 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\entries.js133518073016168424 0
 118C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\esm\_set_prototype_of.js133518072974750061 0
 127C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\cjs\_class_private_method_get.cjs133518072839617192 0
-102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js133518070926633679 0
+102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js133524075252737003 0
 105C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\abortcontroller-polyfill133518072792828767 1
 102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\starter\src\js\views\searchView.js133515696573364242 0
 127C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\lib\lexer\search.js133518073009275203 0
@@ -570,6 +570,7 @@
 89C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\get-port133518072712230224 1
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\array\index-of.js133518073114748379 0
 88C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\globals133518072728441032 1
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.a8194841.css133524124669907494 0
 125C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\modules\es.string.from-code-point.js133518073053740937 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\date\to-iso-string.js133518073149603909 0
 135C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\features\input-autocomplete-onoff.js133518073076535916 0
@@ -870,6 +871,7 @@
 140C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\cjs\syntax\node\UnicodeRange.cjs133518072953064021 0
 136C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-select\node_modules\domutils\lib\esm\stringify.d.ts133518072900254645 0
 104C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\react-refresh\README.md133518072771549458 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.1fcad94d.svg133524124669887490 0
 123C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\node-resolver-core\lib\builtins.js133518072708690446 0
 123C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\cjs\version.cjs133518072959941137 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\utils\src\escape-html.js133518072815975238 0
@@ -3734,7 +3736,7 @@
 120C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\stable\typed-array\to-sorted.js133518073150604135 0
 135C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133518072997729243 0
 128C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\lib\lexer\generic.js133518072998318717 0
-90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\config.js132886955210000000 0
+90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\config.js133524125604872336 0
 127C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\internals\validate-arguments-length.js133518073153984919 0
 126C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\csso\node_modules\css-tree\lib\lexer\Lexer.js133518073000741938 0
 160C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\parcel_sourcemap_wasm_bg.wasm133518072947213712 0
@@ -4212,6 +4214,7 @@
 137C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs133518073011173867 0
 117C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\modules\esnext.observable.js133518073091061796 0
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\cjs\generator133518072949615112 1
+87C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.parcel-cache133524124670207554 1
 99C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\cjs\lexer133518072955804739 1
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\css-tree\cjs\tokenizer133518072958214001 1
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\symbol\async-iterator.js133518072968302766 0
@@ -6199,6 +6202,7 @@
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\object\assign.js133518072949906989 0
 119C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\object\define-property.js133518073013681726 0
 117C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\object\define-setter.js133518073013881768 0
+93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\favicon.84cabb95.png133524124670027522 0
 129C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\src\_initializer_warning_helper.mjs133518073012399353 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\object\freeze.js133518073107162563 0
 116C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\object\from-entries.js133518073107312601 0
@@ -6344,7 +6348,7 @@
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\keys.js133518073128180266 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\pad-end.js133518073137297765 0
 115C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\pad-start.js133518073137387794 0
-91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.35d27858.svg133518136736051530 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.35d27858.svg133528240692870271 0
 166C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js133518072945663757 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\push.js133518073138377725 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\full\instance\reduce.js133518073139948116 0
@@ -7293,7 +7297,7 @@
 108C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\instance\fill.js133518073103798045 0
 110C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\instance\filter.js133518073104443646 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\_\_new_arrow_check133518073004322239 1
-90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.ec33bf00.js133518137634947695 0
+90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.ec33bf00.js133528240692990293 0
 128C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@babel\helper-validator-identifier\package.json133518072761945656 0
 113C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\instance\find-last.js133518073105383865 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\core-js\es\instance\flat-map.js133518073106184219 0
@@ -7983,6 +7987,7 @@
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\SL.js133518073121273832 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\SM.js133518073121283837 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\SO.js133518073121333846 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.1d2d1dec.svg133524124670417751 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\SR.js133518073121935935 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\caniuse-lite\data\regions\ST.js133518073122144107 0
 126C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\@swc\helpers\_\_array_with_holes\package.json133518072989651421 0
@@ -9709,7 +9714,7 @@
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\.bin\update-browserslist-db.cmd133518073155634278 0
 112C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\node_modules\.bin\update-browserslist-db.ps1133518073155614269 0
 84C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.gitignore132886955210000000 0
-84C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\index.html132886955210000000 0
+84C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\index.html133524124455597484 0
 86C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\package.json132886955210000000 0
 81C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\img132886955210000000 1
 92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\sass\main.scss132886955210000000 0
@@ -9718,22 +9723,30 @@
 95C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\sass\_recipe.scss132886955210000000 0
 102C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\sass\_searchResults.scss132886955210000000 0
 95C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\sass\_upload.scss132886955210000000 0
-94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\controller.js133515662238884636 0
+94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\controller.js133524092516300441 0
 91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\helpers.js132886955210000000 0
-89C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\model.js133518078750114851 0
+89C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\model.js133525865615715256 0
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\addRecipeView.js132886955210000000 0
 103C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\bookmarksView.js132886955210000000 0
 104C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\paginationView.js132886955210000000 0
-100C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\recipeView.js132886955210000000 0
+100C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\recipeView.js133525874102452507 0
 101C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\resultsView.js132886955210000000 0
 100C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\searchView.js132886955210000000 0
 94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\js\views\View.js133515695629954766 0
 93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\src\img\favicon.png132886955210000000 0
-93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\favicon.dd29872e.png133518136736041528 0
-91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.4c95ab8c.svg133518136736001324 0
-91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.07365aa8.css133518136736071533 0
-95C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.07365aa8.css.map133518136736081537 0
-94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.ec33bf00.js.map133518137634977695 0
-83C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.html133518111844062025 0
-90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\logo.8da20c6b.png133518136736001324 0
+104C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.parcel-cache\671302c6fe0051dd133524124670197551 0
+104C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.parcel-cache\6c38ab039694f4e1133524124669967503 0
+96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.parcel-cache\data.mdb133524125605495396 0
+96C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\final\.parcel-cache\lock.mdb133524123964964476 0
+93C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\favicon.dd29872e.png133528240691944076 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\icons.4c95ab8c.svg133528240692733914 0
+91C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.07365aa8.css133528240692574701 0
+95C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.07365aa8.css.map133528240692584710 0
+90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.4554a117.js133524125605812597 0
+94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.4554a117.js.map133524125605842619 0
+95C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.a8194841.css.map133524124669947499 0
+94C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.ec33bf00.js.map133528240693010296 0
+83C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\index.html133528189026764038 0
+90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\logo.0913fba4.png133524124670247571 0
+90C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\logo.8da20c6b.png133528240690673597 0
 92C:\Users\hugol\Desktop\complete-javascript-course-master\18-forkify\dist\starter.bf44c12e.js133504202682462303 0
