@@ -661,6 +661,7 @@ const controlAddbookmark = function() {
 const controlbookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
+const controlAddRecipe = function(newRecipe) {};
 const init = function() {
     (0, _bookmarksViewJsDefault.default).addHandlerRender(controlbookmarks);
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
