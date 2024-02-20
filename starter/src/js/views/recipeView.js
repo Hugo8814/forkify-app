@@ -19,13 +19,13 @@ class RecipeView extends View {
     });
   }
 
-  // addHandlerAddBookmark(handler) {
-  //   this._parentElement.addEventListener('click', function (e) {
-  //     const btn = e.target.closest('.btn--bookmark');
-  //     if (!btn) return;
-  //     handler();
-  //   });
-  // }
+  addHandlerAddBookmark(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--bookmark');
+      if (!btn) return;
+      handler();
+    });
+  }
 
   _generateMarkup() {
     return `

@@ -647,10 +647,12 @@ const controlServings = function(newServings) {
 const controlAddbookmark = function() {
     _modelJs.addBookmark(_modelJs.state.recipe);
     console.log(_modelJs.state.recipe);
+    (0, _recipeViewJsDefault.default).update();
 };
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _recipeViewJsDefault.default).addHandlerUpdateServings(controlServings);
+    (0, _recipeViewJsDefault.default).addHandlerAddBookmark(controlAddbookmark);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
     (0, _paginationViewJsDefault.default).addHandlerClick(controlPagination);
 };
@@ -2646,13 +2648,13 @@ class RecipeView extends (0, _viewDefault.default) {
             if (+updateTo > 0) handler(+updateTo);
         });
     }
-    // addHandlerAddBookmark(handler) {
-    //   this._parentElement.addEventListener('click', function (e) {
-    //     const btn = e.target.closest('.btn--bookmark');
-    //     if (!btn) return;
-    //     handler();
-    //   });
-    // }
+    addHandlerAddBookmark(handler) {
+        this._parentElement.addEventListener("click", function(e) {
+            const btn = e.target.closest(".btn--bookmark");
+            if (!btn) return;
+            handler();
+        });
+    }
     _generateMarkup() {
         return `
       <figure class="recipe__fig">
