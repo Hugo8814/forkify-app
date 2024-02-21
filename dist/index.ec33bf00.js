@@ -662,7 +662,7 @@ const controlbookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
 const controlAddRecipe = function(newRecipe) {
-    console.log(newRecipe);
+    _modelJs.uploadRecipe(newRecipe);
 };
 const init = function() {
     (0, _bookmarksViewJsDefault.default).addHandlerRender(controlbookmarks);
@@ -2625,7 +2625,8 @@ const clearBookmarks = function() {
     localStorage.clear("bookmark");
 };
 const uploadRecipe = async function(newRecipe) {
-    const ingredients = Object.entries(newRecipe).filter();
+    const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith("ingredient") && entry[1] !== "");
+    console.log(ingredients);
 };
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"70DKu","./helpers":"5MiOq","./views/bookmarksView.js":"f1mih"}],"70DKu":[function(require,module,exports) {
