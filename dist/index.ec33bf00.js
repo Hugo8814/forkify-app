@@ -661,7 +661,9 @@ const controlAddbookmark = function() {
 const controlbookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
-const controlAddRecipe = function(newRecipe) {};
+const controlAddRecipe = function(newRecipe) {
+    console.log(newRecipe);
+};
 const init = function() {
     (0, _bookmarksViewJsDefault.default).addHandlerRender(controlbookmarks);
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
@@ -669,6 +671,7 @@ const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerAddBookmark(controlAddbookmark);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
     (0, _paginationViewJsDefault.default).addHandlerClick(controlPagination);
+    (0, _addRecipeViewJsDefault.default).addHandlerUpload(controlAddRecipe);
 };
 init();
 
@@ -2529,6 +2532,7 @@ parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage);
 parcelHelpers.export(exports, "updateServings", ()=>updateServings);
 parcelHelpers.export(exports, "addBookmark", ()=>addBookmark);
 parcelHelpers.export(exports, "deleteBookmark", ()=>deleteBookmark);
+parcelHelpers.export(exports, "uploadRecipe", ()=>uploadRecipe);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _helpers = require("./helpers");
 var _configJs = require("./config.js");
@@ -2620,7 +2624,9 @@ init();
 const clearBookmarks = function() {
     localStorage.clear("bookmark");
 };
-clearBookmarks();
+const uploadRecipe = async function(newRecipe) {
+    const ingredients = Object.entries(newRecipe).filter();
+};
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"70DKu","./helpers":"5MiOq","./views/bookmarksView.js":"f1mih"}],"70DKu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -3336,13 +3342,14 @@ class AddRecipeView extends (0, _viewJsDefault.default) {
         this._btnClose.addEventListener("click", this.togglewindow.bind(this));
         this._overlay.addEventListener("click", this.togglewindow.bind(this));
     }
-    addHandlerUpload() {
+    addHandlerUpload(handler) {
         this._parentElement.addEventListener("submit", function(e) {
             e.preventDefault();
-            const data = [
+            const dataArr = [
                 ...new FormData(this)
             ];
-            console.log(data);
+            const data = Object.fromEntries(dataArr);
+            handler(data);
         });
     }
     _generateMarkup() {}
