@@ -5,6 +5,7 @@ import SearchView from './views/searchView.js';
 import bookmarksView from './views/bookmarksView.js';
 import paginationView from './views/paginationView.js';
 import addRecipeView from './views/addRecipeView.js';
+import { MODAL_CLOSE_SEC } from './config.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -93,7 +94,28 @@ const controlbookmarks = function () {
 
 const controlAddRecipe = async function (newRecipe) {
   try {
+    ///show loading spinner
+    addRecipeView.renderSpinner();
+    //upload the new recipe
     await model.uploadRecipe(newRecipe);
+    console.log(model.state.recipe);
+
+    //render recipe
+    recipeView.render(model.state.recipe);
+
+    // succsess message
+    addRecipeView.renderMessage();
+
+    // render bookmark view
+    bookmarksView.render(model.state.bookmarks);
+
+    //change ID in Url
+    window.history.pushState(null, '', `#${model.state.recipe.id}`);
+
+    //close form window
+    setTimeout(function () {
+      addRecipeView.togglewindow();
+    }, MODAL_CLOSE_SEC * 1000);
   } catch (error) {
     console.error('😁😀', error);
     addRecipeView.renderError(error.message);
