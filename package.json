@@ -2,10 +2,11 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "",
+  "default": "index.html",
   "scripts": {
     "start": "parcel starter/index.html",
     "start2": "parcel final/index.html",
-    "build": "parcel build index"
+    "build": "parcel build starter/index.html  --dist-dir ./dist"
   },
   "author": "hugo",
   "license": "ISC",
