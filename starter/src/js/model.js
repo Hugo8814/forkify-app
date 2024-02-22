@@ -1,6 +1,6 @@
 import { async } from 'regenerator-runtime';
-import { getJSON } from './helpers';
-import { API_URL, RES_PER_PAGE } from './config.js';
+import { getJSON, sendJSON } from './helpers';
+import { API_URL, RES_PER_PAGE, KEY } from './config.js';
 import bookmarksView from './views/bookmarksView.js';
 
 export const state = {
@@ -104,8 +104,31 @@ const clearBookmarks = function () {
 //clearBookmarks();
 
 export const uploadRecipe = async function (newRecipe) {
-  const ingredients = Object.entries(newRecipe).filter(
-    entry => entry[0].startsWith('ingredient') && entry[1] !== ''
-  );
-  console.log(ingredients);
+  try {
+    const ingredients = Object.entries(newRecipe)
+      .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
+      .map(ing => {
+        const ingArr = ing[1].replaceAll(' ', '').split(',');
+        if (ingArr.length !== 3)
+          throw new Error(
+            'wrong ingredient format! please use the correct format'
+          );
+        const [quantity, unit, description] = ingArr;
+
+        return { quantity: quantity ? +quantity : null, unit, description };
+      });
+    const recipe = {
+      title: newRecipe.title,
+      sourceUrl: newRecipe.sourceUrl,
+      image_url: newRecipe.image,
+      publisher: newRecipe.publisher,
+      cooking_time: +newRecipe.cookingTime,
+      servings: +newRecipe.servings,
+      ingredients,
+    };
+
+    sendJSON(`${API_URL}?key=${KEY}`);
+  } catch (err) {
+    throw err;
+  }
 };
