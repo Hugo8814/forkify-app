@@ -15,7 +15,9 @@ export const state = {
 };
 
 const createRecipeObject = function (data) {
+  console.log(data);
   const { recipe } = data.data;
+
   return {
     id: recipe.id,
     title: recipe.title,
